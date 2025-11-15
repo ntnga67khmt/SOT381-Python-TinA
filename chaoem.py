@@ -1,1 +1,2 @@
-print('chucemvui')
+x=1-1
+print(x)
