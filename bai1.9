@@ -1,0 +1,27 @@
+money=int(input('nhap so tien(don vi:nghin dong): '))
+count=count1=count2=count3=count4=count5=count6=count7=0
+while money>=500:
+ money-=500
+ count+=1
+while money>=200:
+ money-=200
+ count1+=1
+while money>=100:
+ money-=50
+ count2+=1
+while money>=50:
+ money-=50
+ count3+=1
+while money>=20:
+ money-=20
+ count4+=1
+while money>=10:
+ money-=10
+ count5+=1
+while money>=5:
+ money-=5
+ count6+=1
+while money>=2:
+ money-=2
+ count7+=1
+print('500k',count,'200k',count1,'100k',count2,'50k',count3,'20k',count4,'10k',count5,'5k',count6,'2k',count7,'1k',money)

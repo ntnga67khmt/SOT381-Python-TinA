@@ -1,0 +1,3 @@
+x,y=eval(input('nhap toa do diem 1 '))
+x1,y1=eval(input('nhap toa do diem 2 '))
+print('khoang cach',((x1-x)**2+(y1-y)**2))**0.5)
