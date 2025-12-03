@@ -1,0 +1,17 @@
+s=int(input('nhap so giay'))
+dem=0
+hour=0
+if s<3600 and s>60:
+ while s>=60:
+    s=s-60
+    dem+=1
+ print('phut',dem,'giay',s)
+elif s<60:print('giay',s)
+else:
+    while s>=3600:
+        s=s-3600
+        hour+=1
+    while s>=60:
+     s=s-60
+     dem+=1
+    print('gio',hour,'phut',dem,'giay',s)
