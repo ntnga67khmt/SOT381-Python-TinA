@@ -1,0 +1,14 @@
+e=int(input('nhap don dien:'))
+if e<=50:tien=2.074*e
+else:
+ if e<=100:tien=2.165*(e-50)+2.074*50
+ else:
+  if e<=200:tien=2.729*(e-100)+(2.165+2.074)*50
+  else:
+   if e<=300:tien=3.050*(e-200)+2.729*100+(2.165+2.074)*50
+   else:
+    if e<=400:tien=3.151*(e-300)+(3.050+2.729)*100+(2.165+2.074)*50
+    else:tien=3.444*e+(3.151+3.050+2.729)*100+(2.165+2.074)*50
+tiensauthue=tien*1.1
+print(f"tong tien:{tien} dong")
+print(f"tong tien sau thue:{tiensauthue} dong")
