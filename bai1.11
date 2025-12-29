@@ -1,0 +1,4 @@
+n=int(input('nhap n '))
+u1=int(input('nhap u1 '))
+d=int(input('nhap cong sai '))
+print(int((n*(2*u1+(n-1)*d))/2))
